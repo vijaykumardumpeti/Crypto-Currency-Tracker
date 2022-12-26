@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.main-heading {
+  color: #00e7ff;
+  font-family: 'roboto';
+}
+.cryptocurrencis-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.currencies-table {
+  border: 3px solid #00e7ff;
+  border-radius: 5px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 1000px;
+}
+.table-colomn-container {
+  background-color: #092e33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 990px;
+
+  padding: 10px;
+}
+.usd-and-euro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+.un-ordered-list-container {
+  width: 1000px;
+  list-style-type: none;
+}

@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.currency-image {
+  height: 30px;
+  width: 30px;
+
+  margin-right: 20px;
+}
+.currency-image-and-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  margin-right: 10px;
+}
+.currency-values-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 200px;
+}
+.currency-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 950px;
+}
